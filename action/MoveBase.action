@@ -2,22 +2,20 @@
 # Dock
 ###############################################################################
 #
-# Interface to a mock docking controller
+# Interface to a mock ROS1 style move base action server.
 #
 ###############################################################################
 
 ####################
 # Goal
 ####################
-# To dock (True) or undock (False)
-bool dock
+
+geometry_msgs/PoseStamped target_pose
 
 ---
 ####################
 # Result
 ####################
-
-string message
 
 ---
 
@@ -25,4 +23,4 @@ string message
 # Feedback
 ####################
 
-float32 percentage_completed
+geometry_msgs/PoseStamped base_position
