@@ -17,6 +17,8 @@ geometry_msgs/PoseStamped target_pose
 # Result
 ####################
 
+string message
+
 ---
 
 ####################
