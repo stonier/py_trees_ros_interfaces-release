@@ -59,7 +59,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     action_msgs  # even though not directly using, it requires some trace back
     geometry_msgs
     unique_identifier_msgs
-  ADD_LINTER_TESTS
+  # ADD_LINTER_TESTS  # very expensive
 )
 ##############################################################################
 # Package
