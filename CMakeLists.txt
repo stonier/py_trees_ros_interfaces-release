@@ -44,11 +44,12 @@ set(msg_files
 )
 
 set(srv_files
+  "srv/CloseBlackboardWatcher.srv"
   "srv/GetBlackboardVariables.srv"
   "srv/IntrospectPublishers.srv"
   "srv/IntrospectSubscribers.srv"
   "srv/OpenBlackboardWatcher.srv"
-  "srv/CloseBlackboardWatcher.srv"
+  "srv/StatusReport.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
