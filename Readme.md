@@ -26,4 +26,4 @@
 
 ## PyTrees-ROS2 Ecosystem
 
-See also [py_trees](http://github.com/splintered-reality/py_trees), [py_trees_ros](http://github.com/splintered-reality/py_trees_ros) and [py_trees_ros_tutorials](http://github.com/splintered-reality/py_trees_ros_tutorials).
+See the `py_trees_ros` [README](https://github.com/splintered-reality/py_trees_ros/blob/devel/README.md) for the latest information on pytrees packages in the ROS ecosystem and their status.
