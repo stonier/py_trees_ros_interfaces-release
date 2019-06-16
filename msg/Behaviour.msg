@@ -32,11 +32,15 @@ unique_identifier_msgs/UUID own_id
 unique_identifier_msgs/UUID parent_id
 
 # ID of the tip of this behaviour. If the tip is the behaviour itself or None,
-# this is empty
+# this is the zero-filled UUID
 unique_identifier_msgs/UUID tip_id
 
 # The IDs of children of this behaviour, if any
 unique_identifier_msgs/UUID[] child_ids
+
+# The ID of the current child (in case of a composite).
+# If None, this is the zero-filled UUID.
+unique_identifier_msgs/UUID current_child_id
 
 # A composite, sequence, selector, plain behaviour, etc.
 uint8 type
