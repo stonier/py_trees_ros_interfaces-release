@@ -1,4 +1,4 @@
-# Possible behaviour states
+# Possible behaviour states - these must match py_trees.common.Status
 uint8 INVALID = 1
 uint8 RUNNING = 2
 uint8 SUCCESS = 3
@@ -13,11 +13,16 @@ uint8 PARALLEL = 4
 uint8 CHOOSER = 5
 uint8 DECORATOR = 6
 
-# Blackbox Level - these must match what is in py_trees.common.BlackBoxLevel
+# Blackbox Level - these must match py_trees.common.BlackBoxLevel
 uint8 BLACKBOX_LEVEL_DETAIL = 1
 uint8 BLACKBOX_LEVEL_COMPONENT = 2
 uint8 BLACKBOX_LEVEL_BIG_PICTURE = 3
 uint8 BLACKBOX_LEVEL_NOT_A_BLACKBOX = 4
+
+# Key Access Levels - these must match py_trees.common.Access
+string BLACKBOARD_ACCESS_READ = "r"
+string BLACKBOARD_ACCESS_WRITE = "w"
+string BLACKBOARD_ACCESS_EXCLUSIVE_WRITE = "x"
 
 # Name given to the behaviour on construction
 string name
@@ -28,7 +33,7 @@ string class_name
 # The ID of this behaviour
 unique_identifier_msgs/UUID own_id
 
-# The ID of the parent behaviour (what if it's empty?)
+# The ID of the parent behaviour
 unique_identifier_msgs/UUID parent_id
 
 # ID of the tip of this behaviour. If the tip is the behaviour itself or None,
@@ -56,3 +61,6 @@ string message
 
 # Whether this node was part of the last tick
 bool is_active
+
+# Blackboard keys and access level registered by blackboard clients of this behaviour
+KeyValue[] blackboard_access
