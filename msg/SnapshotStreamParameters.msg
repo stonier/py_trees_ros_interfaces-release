@@ -7,7 +7,6 @@
 #    snapshot_period: period between snapshots (use /inf to only publish on tree status changes)
 #
 ##############################################################################
-# Configuration for a snapshot stream.
 
 float32 snapshot_period
 bool blackboard_data
