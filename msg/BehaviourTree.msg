@@ -13,10 +13,7 @@ bool changed
 ##############################################################################
 
 diagnostic_msgs/KeyValue[] blackboard_on_visited_path
-
-# Ideally, pass all the details and reconstruct on the
-# other side, but quick and dirty works for now
-string blackboard_activity_stream
+ActivityItem[] blackboard_activity
 
 ##############################################################################
 # Other
