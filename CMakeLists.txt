@@ -36,6 +36,7 @@ set(action_files
 )
 
 set(msg_files
+  "msg/ActivityItem.msg"
   "msg/Behaviour.msg"
   "msg/BehaviourTree.msg"
   "msg/KeyValue.msg"
