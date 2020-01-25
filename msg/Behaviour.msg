@@ -50,6 +50,9 @@ unique_identifier_msgs/UUID current_child_id
 # A composite, sequence, selector, plain behaviour, etc.
 uint8 type
 
+# Additional detail about this behaviour, useful for debugging. Example: Parallel policy
+string additional_detail
+
 # Blackbox level (for visualisation purposes)
 uint8 blackbox_level
 
