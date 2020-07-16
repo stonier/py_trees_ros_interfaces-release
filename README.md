@@ -1,3 +1,26 @@
+## py_trees_ros_interfaces (foxy) - 2.0.3-1
+
+The packages in the `py_trees_ros_interfaces` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy py_trees_ros_interfaces` on `Thu, 16 Jul 2020 05:04:01 -0000`
+
+The `py_trees_ros_interfaces` package was released.
+
+Version of package(s) in repository `py_trees_ros_interfaces`:
+
+- upstream repository: https://github.com/splintered-reality/py_trees_ros_interfaces.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## py_trees_ros_interfaces (eloquent) - 2.0.3-2
 
 The packages in the `py_trees_ros_interfaces` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --track eloquent --rosdistro eloquent py_trees_ros_interfaces` on `Sat, 25 Jan 2020 03:09:23 -0000`
