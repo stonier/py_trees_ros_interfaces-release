@@ -140,7 +140,7 @@ tracks:
     last_version: 2.0.3
     name: py_trees_ros_interfaces
     patches: null
-    release_inc: '1'
+    release_inc: '2'
     release_repo_url: https://github.com/stonier/py_trees_ros_interfaces-release.git
     release_tag: :{version}
     ros_distro: rolling
